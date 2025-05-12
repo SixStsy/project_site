@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Художник</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Sublime project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/checkout.css">
+<link rel="stylesheet" type="text/css" href="styles/checkout_responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+
+
+	<header class="header">
+		<div class="header_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							<div class="logo"><a href="#">Художник</a></div>
+							<nav class="main_nav">
+								<ul>
+									<li class="hassubs active">
+										<a href="index.html">Главная</a>
+										<ul>
+											<li><a href="categories.html">Категории</a></li>
+											<li><a href="product.html">Товары</a></li>
+											<li><a href="cart.html">Корзина</a></li>
+											<li><a href="checkout.html">Заказ</a></li>
+											<li><a href="contact.html">Регистрация</a></li>
+										</ul>
+									</li>
+									<li class="hassubs">
+										<a href="categories.html">Категории</a>
+										<ul>
+											<li><a href="categories.html">Все товары</a></li>
+											
+										</ul>
+									</li>
+									<li><a href="cart.html">Корзина</a></li>
+									<li><a href="checkout.html">Заказ</a></li>
+								</ul>
+							</nav>
+							<div class="header_extra ml-auto">
+								<div class="shopping_cart">
+									<a href="cart.html">
+										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 489 489" style="enable-background:new 0 0 489 489;" xml:space="preserve">
+											<g>
+												<path d="M440.1,422.7l-28-315.3c-0.6-7-6.5-12.3-13.4-12.3h-57.6C340.3,42.5,297.3,0,244.5,0s-95.8,42.5-96.6,95.1H90.3
+													c-7,0-12.8,5.3-13.4,12.3l-28,315.3c0,0.4-0.1,0.8-0.1,1.2c0,35.9,32.9,65.1,73.4,65.1h244.6c40.5,0,73.4-29.2,73.4-65.1
+													C440.2,423.5,440.2,423.1,440.1,422.7z M244.5,27c37.9,0,68.8,30.4,69.6,68.1H174.9C175.7,57.4,206.6,27,244.5,27z M366.8,462
+													H122.2c-25.4,0-46-16.8-46.4-37.5l26.8-302.3h45.2v41c0,7.5,6,13.5,13.5,13.5s13.5-6,13.5-13.5v-41h139.3v41
+													c0,7.5,6,13.5,13.5,13.5s13.5-6,13.5-13.5v-41h45.2l26.9,302.3C412.8,445.2,392.1,462,366.8,462z"/>
+											</g>
+										</svg>
+										<div>Корзина <span>(0)</span></div>
+									</a>
+								</div>
+								
+								<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="search_panel trans_300">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="search_panel_content d-flex flex-row align-items-center justify-content-end">
+							<form action="#">
+								<input type="text" class="search_input" placeholder="Search" required="required">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="header_social">
+			<ul>
+				
+			</ul>
+		</div>
+	</header>
+
+
+	
+		<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+
+		<div class="menu_social">
+			<ul>
+				
+			</ul>
+		</div>
+	</div>
+	
+
+	<div class="home">
+		<div class="home_container">
+			<div class="home_background" style="background-image:url(images/back2.jpg)"></div>
+			<div class="home_content_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="home_content">
+								<div class="breadcrumbs">
+									<ul>
+										<li><a href="index.html">Главная</a></li>
+										<li><a href="cart.html">Корзина</a></li>
+										<li>Заказ</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="checkout">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-6">
+					<div class="billing checkout_section">
+						<div class="section_title">Оформление заказа</div>
+						<div class="section_subtitle">Впишите информацию о заказе</div>
+						<div class="checkout_form_container">
+							<form action="#" id="checkout_form" class="checkout_form">
+								<div class="row">
+									<div class="col-xl-6">
+										<label for="checkout_name">Имя</label>
+										<input type="text" id="checkout_name" class="checkout_input" required="required">
+									</div>
+									<div class="col-xl-6 last_name_col">
+										<label for="checkout_last_name">Фамилия</label>
+										<input type="text" id="checkout_last_name" class="checkout_input" required="required">
+									</div>
+								</div>
+								<div>
+									<label for="checkout_company">Отчество</label>
+									<input type="text" id="checkout_company" class="checkout_input">
+								</div>
+								<div>
+									<label for="checkout_country">Страна</label>
+									<select name="checkout_country" id="checkout_country" class="dropdown_item_select checkout_input" require="required">
+										<option></option>
+										<option>Россия</option>
+										<option>Беларусь</option>
+										<option>Казахстан</option>
+										<option>Другая</option>
+									</select>
+								</div>
+								<div>
+									<label for="checkout_address">Адрес</label>
+									<input type="text" id="checkout_address" class="checkout_input" required="required">
+									<input type="text" id="checkout_address_2" class="checkout_input checkout_address_2" required="required">
+								</div>
+								<div>
+									<label for="checkout_zipcode">Индекс</label>
+									<input type="text" id="checkout_zipcode" class="checkout_input" required="required">
+								</div>
+								<div>
+									<label for="checkout_city">Город</label>
+									<select name="checkout_city" id="checkout_city" class="dropdown_item_select checkout_input" require="required">
+										<option></option>
+										<option>Москва</option>
+										<option>Минск</option>
+										<option>Астана</option>
+										<option>Другой</option>
+									</select>
+								</div>
+								<div>
+									<label for="checkout_province">Район</label>
+									<select name="checkout_province" id="checkout_province" class="dropdown_item_select checkout_input" require="required">
+										<option></option>
+										<option>Тверской</option>
+										<option>Первомайский</option>
+										<option>Есильский</option>
+										<option>Другой</option>
+									</select>
+								</div>
+								<div>
+									<label for="checkout_phone">Номер телефона</label>
+									<input type="phone" id="checkout_phone" class="checkout_input" required="required">
+								</div>
+								<div>
+									<label for="checkout_email">Электронная почта</label>
+									<input type="phone" id="checkout_email" class="checkout_input" required="required">
+								</div>
+								<div class="checkout_extra">
+									<div>
+										<input type="checkbox" id="checkbox_terms" name="regular_checkbox" class="regular_checkbox" checked="checked">
+										<label for="checkbox_terms"><img src="images/check.png" alt=""></label>
+										<span class="checkbox_title">Информация введена</span>
+									</div>
+									<div>
+										<input type="checkbox" id="checkbox_account" name="regular_checkbox" class="regular_checkbox">
+										<label for="checkbox_account"><img src="images/check.png" alt=""></label>
+										<span class="checkbox_title">Сохранить аккаунт</span>
+									</div>
+									<div>
+										<input type="checkbox" id="checkbox_newsletter" name="regular_checkbox" class="regular_checkbox">
+										<label for="checkbox_newsletter"><img src="images/check.png" alt=""></label>
+										<span class="checkbox_title">Уведомлять о новостях</span>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-6">
+					<div class="order checkout_section">
+						<div class="section_title">Ваш заказ</div>
+						<div class="section_subtitle">Детали заказа</div>
+
+						<div class="order_list_container">
+							<div class="order_list_bar d-flex flex-row align-items-center justify-content-start">
+								<div class="order_list_title">Товар</div>
+								<div class="order_list_value ml-auto">Краска детская</div>
+							</div>
+							<ul class="order_list">
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div class="order_list_title">Полная цена </div>
+									<div class="order_list_value ml-auto"> 149 ₽</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div class="order_list_title">Цена со скидкой</div>
+									<div class="order_list_value ml-auto"> 110 ₽</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div class="order_list_title">Достака</div>
+									<div class="order_list_value ml-auto">Бесплатная</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div class="order_list_title">К оплате</div>
+									<div class="order_list_value ml-auto"> 111 ₽</div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="payment">
+							<div class="payment_options">
+								<label class="payment_option clearfix">Картой онлайн
+									<input type="radio" name="radio">
+									<span class="checkmark"></span>
+								</label>
+								<label class="payment_option clearfix">Картой при получении
+									<input type="radio" name="radio">
+									<span class="checkmark"></span>
+								</label>
+								<label class="payment_option clearfix">Наличными при получении
+									<input type="radio" name="radio">
+									<span class="checkmark"></span>
+								</label>
+								<label class="payment_option clearfix">Оплата в рассрочку
+									<input type="radio" checked="checked" name="radio">
+									<span class="checkmark"></span>
+								</label>
+							</div>
+						</div>
+
+						<div class="order_text">Нажимая кнопку "Заказать", я даю свое согласие на сбор и обработку моих персональных данных в соответствии с Политикой конфиденциальности и принимаю условия публичной оферты.</div>
+						<div class="button order_button"><a href="#">Заказать</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/checkout.js"></script>
+</body>
+</html>
